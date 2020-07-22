@@ -1,8 +1,6 @@
 /**
- * ToyReact学习 理解组件的基本概念
- * setStartAfter: 表示用于将某个节点的终点位置设置为range对象的起点位置
- * setEndAfter:表示用于将某个节点的终点位置设置为range对象的终点位置;
- */
+ ** ToyReact学习 理解组件的基本概念
+ **/
 class ElementWrapper {
   constructor(type) {
     this.root = document.createElement(type);
